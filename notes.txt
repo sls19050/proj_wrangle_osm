@@ -1,2 +1,7 @@
-Went to open street map to export .osm files:
+5/18/17 Went to open street map to export .osm files:
+5/19/17
+	write script (mapparser.py) to parse the osm file
+5/20/17
+	finished placing all of the Udacity scripts in the directory
+	exported .csv files to prepare for SQL
 
