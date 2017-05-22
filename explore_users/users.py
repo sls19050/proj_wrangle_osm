@@ -27,4 +27,4 @@ def process_map(filename):
             fp.write('\n')
 
 if __name__ == "__main__":
-    process_map('../example.osm')
+    process_map('../map_files/CustomSeattle.osm')

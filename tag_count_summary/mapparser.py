@@ -25,4 +25,4 @@ def count_tags(osmFile):
 
 
 if __name__ == "__main__":
-    count_tags('../example.osm')
+    count_tags('../map_files/CustomSeattle.osm')

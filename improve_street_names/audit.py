@@ -10,31 +10,19 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "../example.osm"
-street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)
+OSMFILE = "../map_files/CustomSeattle.osm"
+street_type_re = re.compile(r'\b\S+\.?\b', re.IGNORECASE)
 
-expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
-            "Trail", "Parkway", "Commons", "Way"]
+expected = ["street", "avenue", "boulevard", "drive", "court", "place", "square", "lane", "road", 
+            "trail", "parkway", "commons", "way", "alley"]
 
-
-mapping = { "St": "Street",
-            "St.": "Street",
-            "Ave" : "Avenue",
-            "Rd." : "Road"
-            }
-
-
-def audit_street_type(street_types, street_name):    
-    for word in street_name.split():
-        m = street_type_re.search(word)
-        if m:
-            street_type = m.group()
-            if street_type in expected:
-                return 0
-            else:
-                pass
+def audit_street_type(street_types, street_name):
+    counter = 0
+    for word in street_name.split():        
+        if word.lower() in expected:
+            return 0               
     
-    street_types[street_type].add(street_name)
+    street_types[word].add(street_name)
 
 
 def is_street_name(elem):
@@ -57,17 +45,32 @@ def audit(osmfile):
 
     return street_types
 
+mapping = { "st": "Street",
+            "st.": "Street",
+            "ave" : "Avenue",
+            "rd." : "Road"
+            }
+
+
 def update_name(name, mapping):
     words = name.split()
-    if words[-1] in mapping:
-        words[-1] = mapping[words[-1]]
-    name = " ".join(words)
+    output_name = ""
+    for word in words:
+        
+        replace_word = word        
+        if word.lower() in mapping:
+            replace_word = mapping[word.lower()]
+        
+        output_name += " "+replace_word
 
-    return name
-
+    return output_name
 
 if __name__ == '__main__':
     odd_street_names = audit(OSMFILE)
-    for key in odd_street_names:
-        better_name = update_name(key, mapping)
-        print key, "=>", better_name
+    
+    with open('convert_odd_street_names.txt','w') as fp2:
+        
+        for key in odd_street_names:
+            for odd_street_name in odd_street_names[key]:
+                better_name = update_name(odd_street_name, mapping)
+                print >>fp2,  odd_street_name, "=>", better_name

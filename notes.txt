@@ -4,4 +4,7 @@
 5/20/17
 	finished placing all of the Udacity scripts in the directory
 	exported .csv files to prepare for SQL
-
+5/21/17
+	practiced sql with nodes_tags.db
+5/22/17
+	imported all .csv to .db
