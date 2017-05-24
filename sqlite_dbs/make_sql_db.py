@@ -22,12 +22,12 @@ def to_unicode(data_row):
 		result_list.append(unicode(d, 'utf-8'))		
 	return result_list
 
-def create_tb(name):
+def create_tb(name, con):
 	tb_cmd = dict_tb_cmd[name]
 	tb_fields = dict_tb_fields[name]
 	value_cmd = "?" + ", ?" * (len(tb_fields.split(','))-1)
 
-	con = sqlite3.connect(name+".db")
+	
 	cur = con.cursor()
 	cur.executescript("""
 		DROP TABLE IF EXISTS %s;
@@ -43,9 +43,12 @@ def create_tb(name):
 				INSERT INTO %s (%s) VALUES (%s);
 				""" % (name, tb_fields, value_cmd), to_db)
 
-	con.commit()
-	con.close
+	
+	
 
 if __name__ == "__main__":
+	con = sqlite3.connect("CustomSeattle.db")
 	for key in dict_tb_fields:
-		create_tb(key)
+		create_tb(key, con)
+	con.commit()
+	con.close

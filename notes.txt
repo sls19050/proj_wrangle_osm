@@ -8,3 +8,5 @@
 	practiced sql with nodes_tags.db
 5/22/17
 	imported all .csv to .db
+5/24/17
+	built prototype query to sort bars by closest distance to a point
