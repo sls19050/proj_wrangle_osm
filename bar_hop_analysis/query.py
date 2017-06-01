@@ -1,5 +1,4 @@
 import sqlite3
-#from pyspatialite import dbapi2 as db
 
 def print_results(data, limiter_on=True):
 	limiter = 10
@@ -17,26 +16,60 @@ def print_results(data, limiter_on=True):
 				fp.write('\n')
 
 def query1():
-	lat, lon  = 47.614259, -122.316579
+
+	def dist_score(lat1, lon1, lat2, lon2):
+		return (lat1-lat2)**2 + (lon1-lon2)**2
+	
+	ilat, ilon  = 47.614259, -122.316579
 	con = sqlite3.connect("../sqlite_dbs/CustomSeattle.db")
+	con.create_function("dist_score", 4, dist_score)
+
 	cur = con.cursor()
 	
+	sql_cmd = """   	
+	CREATE TEMP VIEW bar_pos
+		AS          
+   		SELECT n.id, nt2.value AS name, n.lat, n.lon 
+   		FROM nodes_tags AS nt1
+   		JOIN nodes_tags AS nt2 
+   			ON nt1.id = nt2.id
+   		JOIN nodes AS n
+   			ON n.id = nt1.id
+   		WHERE nt1.key = 'amenity' 
+   			AND nt1.value = 'bar'
+   			AND nt2.key = 'name';
+   		   		
+	"""
+	cur.execute(sql_cmd)
+
 	sql_cmd = """
+
+	CREATE TEMP VIEW 
+	dist_matrix(idA, idB, dist)	AS 
+		SELECT A.id, B.id, dist_score(A.lat, A.lon, B.lat,B.lon) AS dist
+		FROM bar_pos AS A, bar_pos AS B 
+		WHERE A.id > B.id
+		ORDER BY dist;
+	"""
 	
-	SELECT T1.id, T1.value, T2.value, 
-		(nodes.lat-47.614259)*(nodes.lat-47.614259)+(nodes.lon+122.316579)*(nodes.lon+122.316579)
-		As dist_score
-	FROM nodes_tags AS T1                                      
-	JOIN (
-		SELECT * FROM nodes_tags
-		WHERE key = 'amenity' 
-		AND value LIKE '%bar%'
-		) AS T2
-	JOIN nodes
-	ON T1.id = T2.id
-	WHERE T1.key = 'name'
-	AND T1.id = nodes.id
-	ORDER BY dist_score
+	cur.execute(sql_cmd)
+
+	sql_cmd = """
+	WITH RECURSIVE result_tb(id, dist, counter) AS (
+		SELECT D.idA+D.idB-1387947219, MIN(D.dist), 0
+		FROM dist_matrix AS D
+		WHERE D.idA = '1387947219' OR D.idB = '1387947219'
+
+			UNION ALL
+
+		SELECT D.idA+D.idB-result_tb.id, MIN(D.dist), result_tb.counter+1
+		FROM dist_matrix AS D, result_tb
+		WHERE D.idA = result_tb.id OR D.idB = result_tb.id
+		
+		)
+	SELECT R.id, B.name
+	FROM result_tb AS R, bar_pos AS B
+	WHERE R.id = B.id	
 	"""
 	
 	data = cur.execute(sql_cmd)
