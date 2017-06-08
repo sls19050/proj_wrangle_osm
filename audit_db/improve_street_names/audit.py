@@ -10,7 +10,7 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "../map_files/CustomSeattle.osm"
+OSMFILE = "../../map_files/CustomSeattle.osm"
 street_type_re = re.compile(r'\b\S+\.?\b', re.IGNORECASE)
 
 expected = ["street", "avenue", "boulevard", "drive", "court", "place", "square", "lane", "road", 
@@ -45,10 +45,8 @@ def audit(osmfile):
 
     return street_types
 
-mapping = { "st": "Street",
-            "st.": "Street",
-            "ave" : "Avenue",
-            "rd." : "Road"
+mapping = { "st.": "Street",
+            "ave" : "Avenue",            
             }
 
 

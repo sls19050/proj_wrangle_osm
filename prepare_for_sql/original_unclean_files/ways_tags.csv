@@ -8350,7 +8350,7 @@ id,key,value,type
 37585127,name,Exeter House,regular
 37585127,source,King County GIS;data.seattle.gov,regular
 37619683,housenumber,503,addr
-37619683,street,20th Avenue E,addr
+37619683,street,20th Ave E,addr
 37619683,landuse,allotments,regular
 37619683,name,Republican P-Patch,regular
 37619683,source,yahoo_wms;knowledge,regular
@@ -8369,7 +8369,7 @@ id,key,value,type
 37622281,source,yahoo_wms,regular
 37622281,website,http://www.seattle.gov/neighborhoods/ppatch/locations/25.htm,regular
 37622858,housenumber,152,addr
-37622858,street,14th Avenue,addr
+37622858,street,14th Ave,addr
 37622858,landuse,allotments,regular
 37622858,name,Squire Park P-Patch,regular
 37622858,source,yahoo_wms;knowledge,regular
@@ -8382,7 +8382,7 @@ id,key,value,type
 37623020,name,Thomas Street Gardens,regular
 37623020,source,King County GIS;yahoo_wms;knowledge,regular
 37623190,housenumber,800,addr
-37623190,street,18th Avenue,addr
+37623190,street,18th Ave,addr
 37623190,landuse,allotments,regular
 37623190,name,Immaculate P-Patch,regular
 37623190,source,yahoo_wms;knowledge,regular
@@ -12999,7 +12999,7 @@ id,key,value,type
 160311209,housenumber,2201,addr
 160311209,postcode,98121,addr
 160311209,state,WA,addr
-160311209,street,Westlake Avenue,addr
+160311209,street,Westlake Ave,addr
 160311209,building,yes,regular
 160311209,levels,5,building
 160311209,material,glass,building
@@ -18189,7 +18189,7 @@ id,key,value,type
 206051263,city,Seattle,addr
 206051263,housenumber,1617,addr
 206051263,postcode,98122,addr
-206051263,street,Boylston Avenue,addr
+206051263,street,Boylston Ave,addr
 206051263,building,yes,regular
 206051263,name,Office Nomads,regular
 206051263,website,http://officenomads.com,regular
@@ -21478,7 +21478,7 @@ id,key,value,type
 206082182,housename,Parkway Apartments,addr
 206082182,housenumber,603,addr
 206082182,postcode,98102,addr
-206082182,street,12th Avenue E,addr
+206082182,street,12th Ave E,addr
 206082182,building,apartments,regular
 206082182,designation,Apartment Building,regular
 206082182,name,Parkway Apartments,regular
@@ -97084,7 +97084,7 @@ id,key,value,type
 358272089,city,Seattle,addr
 358272089,housenumber,2000,addr
 358272089,postcode,98109,addr
-358272089,street,2nd Avenue,addr
+358272089,street,2nd Ave,addr
 358272089,building,yes,regular
 358272089,levels,8,building
 358272089,name,The Palladian Hotel,regular
