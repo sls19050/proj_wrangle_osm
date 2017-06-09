@@ -1,0 +1,382 @@
+Cue Apartments,0.894976218219
+Pike Motorworks,1.76264398828
+The Starbird,1.98814250979
+The Lenawee,2.22456104679
+Glencoe,2.84915844525
+Porter,2.85769209065
+The Boylston Hotel,2.85973290728
+The Recherche,2.86556981525
+Montage,2.94163627027
+The DuBois,3.07009084054
+Boylston Court,3.23532499549
+Buena Vista Apartments,3.3676239459
+BelBoy,3.55642238505
+Press Condos 1,3.59305531907
+Press Condos 2,3.93048711778
+Hollywood Court,3.93196331479
+Shannon,4.00580513539
+seventeen07,4.03108359553
+Seneca,4.09091372546
+Hollywood II,4.10587713366
+Norman F. Chamberlain House,4.37196240998
+Centennial Apartments,4.38258907352
+Annapolis Apartments,4.38668788455
+Consulate,4.50925784495
+Rialto Court,4.65884644614
+Terravita,4.69005775604
+Santa Fe,4.77715635501
+Conrad,4.81113809487
+Sterling Court,4.81182976384
+Winston Apartments,4.88850710159
+Naoma Apartments,4.91987855859
+Broadstone Infinity Apartments,4.92674314074
+Charbern,5.06689909976
+Crest on Belmont,5.12351027904
+Mission Inn,5.16505911155
+The Parc on Summit,5.19347299031
+Capitol Ridge,5.24537221867
+Boylston Place,5.3332626353
+The Granada,5.40508532058
+Charles Z. Smith House,5.48619279056
+LaRochelle Apartments,5.51008862767
+Richard M. Hudson House,5.6443808262
+Summit Apartments,5.64490362731
+Gerrish Hall,5.67226127742
+Harvard Avenue Apartments,5.70016532413
+Sunset Electric,5.76372494185
+Pantages,5.77018589031
+Summit Court,5.9236418559
+Raymond A. Stewart, Sr. House,5.93247771019
+Abonita,5.96295465367
+Avon Apartments,6.00102532252
+Granberg Apartments,6.05311215187
+Capitol Crest Condominiums,6.05858771543
+Winchester Apartments,6.09758776786
+Emerald Arms Apartments,6.15761822288
+Summit Place,6.2760618274
+The White House,6.41878193602
+Summit Vista Apartments,6.4854121504
+Corinthian,6.50215793066
+The Caravilla,6.62899880102
+VIVA,6.71896635627
+La Salle,6.73832075787
+The Bonneville,6.83876010118
+The Ansonia,6.909678695
+Tuscany,6.94135516587
+Ambassador,7.13915384738
+Lexicon,7.23891804908
+Ramayana,7.26071257888
+The Morris,7.34935868221
+Beryl Apartments,7.35870481325
+The Olive Terrace Apartments,7.38806209223
+Packard Building,7.51406306525
+St. Florence Apartments,7.5360370307
+Hollywood Lofts,7.59293325315
+The Heights,7.7004607411
+Garden Studios Apartments,7.76229457227
+Louis Arms Apartments,7.77458055769
+Harvard Crest,7.81365821392
+Three20 Apartments,7.85689471629
+Excelsior Apartments,8.06519012433
+Coppins Well,8.24300564332
+Collins on Pine,8.37714413928
+Melrose Apartments,8.37882632217
+Belgrove Court,8.43625075489
+Kelleher House,8.46644921937
+Faneuil Hall,8.54318949292
+The Capitol Building,8.57490454868
+Citizen,8.61306707294
+Melrose Court Apartments,8.63191848045
+Harvard Apartments,8.64451030671
+The Oleta,8.6612296648
+Sealth Vista,8.7525139776
+Harvard Vista,8.89648505953
+The Marlborough,8.99880555564
+Belvedere Vista Apartments,9.01137438445
+Parkview,9.0501028656
+Melmar Apartments,9.07222474534
+Versailles,9.21507386201
+The Daniels Apartments,9.33556884926
+Harvard House,9.35830947826
+Oxford Crest,9.45493134631
+El Capitan,9.45947031825
+Crest Apartments,9.46866139237
+The Strand,9.54562318312
+Embassy,9.69813855123
+Los Angeles Apartments,9.70516884938
+The Westside Off Broadway,9.72022683091
+Pine + Minor,9.80371012401
+Blackstone,9.9535165061
+Bolero,9.96750351408
+The Chasselton,10.2200975693
+REO Flats,10.2332034259
+Villa Apartments,10.258958697
+San Remo,10.2759574237
+Beverly Rae,10.2990844637
+Karma House,10.3916087471
+Kam Lo,10.4422209241
+The Varick Apartments,10.4638254179
+Heather Court,10.4870473412
+The Halmar,10.5852235573
+Chardonnay Apartments,10.5863107472
+Marlene Renee,10.605098285
+Denny Terrace,10.6435657702
+Avanti,10.7521563562
+The Glengarry,10.7861561703
+The Thomas Apartments,10.8383912437
+Roycroft,10.8695298359
+Casa Del Rey,10.980021036
+Thunderbird Apartments,10.9891579395
+Alturra,11.000798781
+Diane Apartments,11.1165341781
+Helen V Apartments,11.137319155
+Glen Ellen Apartments,11.1592382044
+De Lorges,11.2085606207
+Roni Lee Apartments,11.2162167712
+The Dublin,11.250928547
+Thomas Park Ridge,11.272831136
+Homborness,11.3911538916
+Montbel,11.5126917236
+Carlyle,11.5922481722
+Chloe,11.6738736984
+Summit-Crest,11.6740002397
+John Alden Apartments,11.7404538753
+Park Lane,11.9163765156
+Kelo,11.9674394167
+three19,11.9852710997
+Margan Apartments,12.0648159679
+Elektra Condominiums,12.1415292373
+The Margaret,12.2582792834
+400 Harvard Apartments,12.2988452132
+The Bancroft,12.3547699435
+Rianna Building,12.3796948806
+Borchert Company Apartment Building,12.3935902848
+Briarwood,12.3960630235
+The Qualman,12.4616678597
+Marianne,12.5200308886
+The Maple Apartments,12.6265429613
+Red Lion Apartments,12.7123592497
+Summit Terrace,12.7728345594
+Eversen Apartments,12.7917799436
+Rhodes Apartments,12.8657990543
+Vertigo,12.9485674906
+harrison modern,12.9924925593
+Molokai,13.3048929706
+Corona Apartments,13.3773987335
+Anhalt Arms,13.6035475203
+Aya Terrace,13.6626759556
+Saint Ingbert Apartments,13.7012286297
+Mulholland Apartments,13.7281784866
+The Madison Apartments,13.7365623767
+Merry Bee Apartments,13.7922692494
+Viceroy,13.8188343526
+Bernkastle,13.8331341367
+The Harrison,13.852966903
+Teilhard de Chardin Hall,13.8930486666
+The Wilana Co-Op,13.9132722693
+Westminister Apartments,13.932033716
+Royal Manor,13.9385972316
+Elmondo Apartments,13.9695078231
+The Bering,13.9742226376
+The Lowell,13.9767342461
+Cielo,14.0086343276
+Glen Arms,14.0835149577
+Douglas,14.1534457005
+Emerson Apartments,14.1543626429
+Murray Hill,14.1616340158
+Kinects,14.1787387137
+Summit Place,14.2250845864
+The Mill at First Hill,14.2325559321
+The Lamplighter,14.2831226891
+Martha Lee Apartments,14.3940787365
+Broadway Park,14.4397771709
+The Don Todd,14.5224523018
+Barclay Broadway Apartments,14.5345610206
+Camelot,14.7319197903
+Quinault,14.8264634406
+Casa Nita,14.8701427053
+The Eugene,14.8868609373
+The Consul,14.9484285659
+Bellevue Court Apartments,14.9809201314
+Windsor Arms,15.1105718343
+AngelCrest,15.1346707519
+Skyline at First Hill,15.1413838744
+The Highlander,15.1674087379
+Premiere on Pine,15.2440501093
+Dakar,15.3105483721
+Nob Hill Apartments,15.3773452501
+Landes Apartments,15.3813332891
+700 East Mercer Apartments,15.4130092635
+Hill7,15.4512319601
+Monticello Apartments,15.4608899718
+Nine | Pine,15.4838151714
+Catalina Apartments,15.6011937549
+Harvard Court,15.6467085161
+La Crosse Apartments,15.7519352576
+Tower 801 Apartments,15.8127390706
+Sheffield,15.8535206697
+Capitola Apartments,16.0166569674
+The Madkin,16.1216708994
+Cirque,16.1633184
+Grandview,16.2411225403
+Shannon,16.245845571
+The Olivian,16.6141099287
+The Fedroy,16.7366936686
+Parkway Apartments,16.7973659915
+The Zindorf Apartments,16.8106118412
+Summit Apartments,16.9287451936
+Ten-O-Five,17.0071325259
+Pat Williams Apartments,17.0590308243
+Figaro Apartments,17.0704881271
+Brewster Apartments,17.195963195
+Carriage House,17.3233436557
+Dekko Place,17.4056640237
+Seventh & James Apartments,17.4505555875
+Craft,17.5030219634
+Stack House South Tower,17.5135902243
+Bamberg,17.6855496745
+Coach House,17.6886218239
+The Morgan,17.7018269541
+Jonathan,17.962298555
+Broadway Crest,18.0662484918
+Belmont Place,18.0714557408
+Astor Court,18.0858377157
+Oak Manor,18.3119735283
+Carolina Court,18.32133187
+Elizabeth,18.3220855224
+Casey,18.4079146196
+8th + Olive,18.4926779658
+Stack House West Tower,18.4955688388
+Christina,18.503290341
+Amparo,18.5385141073
+The Dover Apartments,18.5525423948
+The Summit,18.564121072
+Bellemoral,18.7146737574
+ArtHaus,18.7975109582
+Union Bay Seattle,18.9838633495
+Boylston Manor,18.9943677509
+The David II Apartments,19.0679341941
+AMLI South Lake Union,19.1918981243
+Belmont Court,19.3115747484
+Summit View,19.4662067903
+Alcyone Apartments,19.4901057392
+1000 East Aloha,19.6256098602
+Merrill Court,19.8015376272
+Lawrence Lofts,19.8773277901
+Graham Terry Apartments,19.936162039
+Lakeview Apartments,20.2902111102
+5th and Madison Condos,20.2962953842
+Sir Lancelot,20.3649551061
+Casa Pacifica,20.6548493169
+The Roundcliffe,21.0409377028
+Pete Gross House,21.7802692158
+Samuel B McKinney Manor,21.8807074397
+Ben Lomond Apartments,21.9097278039
+Coryell Court,22.0792943575
+Met Tower,22.1113492782
+Hacienda,22.1927623024
+Washington Arms,22.2424412907
+Hacienda,22.7544797056
+Radius,23.0252614007
+Stratus,23.0764066788
+Larned Apartments,23.5679461695
+Escala,25.2045659913
+McKenzie Apartments,25.4144618341
+Session,25.4375545212
+Sheridan Apartments,25.7274629794
+The Virginian Apartments,26.4936088176
+The Lofts,26.675328783
+Via6,26.831959831
+Fifteen Twenty-One Second Avenue,26.8933888971
+The Watermark Tower,27.0206008501
+Haddon,27.2957787863
+The Martin,27.3036173419
+Josephinum,27.3963215094
+Stratford on 4th,27.6147289926
+The Post Apartments,27.7669139276
+Fifth Avenue Court,27.7714434132
+Plymouth on Stewart,28.0601924065
+Viktoria,28.3595915061
+Denny Park Apartments,28.4437049754
+Lee Court,28.6117188199
+Royal Crest Condominium,29.1389946437
+Cyrene,29.1456786959
+Windham Apartments,29.1495099677
+The Oxford,29.2116520334
+Mark On 8th,29.3564552973
+Fairmount Apartments,29.4880893797
+Tower 12,29.5770103267
+The Lenora,29.6441628366
+8th + Republican,29.7525628341
+Compass on Dexter,30.0237770406
+The Shelby,30.4890862116
+Cristalla,30.4962461149
+Borealis,30.625363964
+Charlesgate Apartments,30.8184189929
+The Cornelius Apartments,30.9704179311
+Market Place North,31.1390204854
+Price Catalina Apartments,31.3962034663
+Franklin Apartments,31.4709556233
+Security House,31.4827778272
+Castle Apartments,31.6257110847
+Grandview Condominiums,31.8118117368
+NHabit Belltown,32.0739900896
+The Rivoli,32.2643990302
+Marselle,32.5548608619
+Guiry Building,32.5894765472
+The Adams Apartments,32.7048998769
+Schillestad Building,32.7698638272
+Modera,32.8379687541
+Viaggio Building,32.8879240946
+Fleming Apartments,32.9514905401
+Annaliese,33.1798310193
+Ventana at the Market,33.2220801535
+Moda Apartments,33.476830947
+Concept One,33.4890848821
+Skye,33.5764135253
+Continental Place,33.673191264
+Lumiere Building,33.7352563385
+Traugott Terrace,33.9862409394
+JUXT Apartments,34.0665783936
+The Devonshire,34.4501998952
+Minato Building,34.6730492084
+Bell Tower,34.7855939357
+Taylor 28,35.0397079359
+The Belltown Collective,35.1387081242
+Montreaux Condominiums,35.140677047
+Dorothy Day House,35.1936120757
+Volta Apartments,35.4658264956
+Centennial Tower and Court Apartments,35.7345877229
+The Davenport,35.7861582935
+Barnes Building,35.8642190434
+The Lexington-Concord Apartments,35.9034319172
+The Stonecliff,36.1333374127
+The Century,36.1506559235
+Austin A Bell Building,36.1743626255
+Union SLU,36.3306143719
+Alterra,36.5535076773
+708 Uptown,36.6720889361
+Elliott Pointe,36.6880701766
+Belltown Court,36.956143833
+Aperture On Fifth,37.0278257116
+Belltown Lofts,37.2758539354
+Belltown Court,37.4094444641
+2300 Elliott,38.0390145558
+Alto Apartments,38.0496446117
+Verve,38.0762678379
+Watermarke,38.5455748799
+Site 17,38.5468767534
+Dimension,38.6047579715
+Dexter Apartments,38.659857503
+ArtHouse,38.7861383175
+Vine Court,38.8383481509
+Lumen,39.1349716871
+Berkshires on Elliott,39.430534105
+First And Vine Apartments,39.5780067046
+Site 17,39.6022714169
+The New Pacific,39.6552518222
+Berkshires on Elliott,39.8058746111
+Delmont Apartments,41.5336897081
+Dexter Hayes,42.7618122998
+Taylor,45.1529630797
+Trace Lofts,242.734214934

@@ -14,3 +14,10 @@
 	made python scripts to get nodes and ways tag counts
 6/8/17
 	wrote bash script to fix csv files for street names
+6/9/17
+	done investigating best apartment!
+
+
+refs:
+-hyperphysics: decibels is inversely proportional to squared distances
+-stackover flow: how to calc distance given pairs of lon and lat
