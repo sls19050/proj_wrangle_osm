@@ -1,0 +1,7 @@
+References:
+-Noise Monitoring Servies: http://www.noisemonitoringservices.com/decibels-explained/
+	typical decibel value for normal conversations = 60
+-Hyperphysics: http://www.noisemonitoringservices.com/decibels-explained/
+	Amplitude of sound is inversely proportional to squared distance from the source
+-Stackover Flow, link: https://stackoverflow.com/questions/19412462/getting-distance-between-two-points-based-on-latitude-longitude
+	Function to calculate distance between two points, given a pair of lon and lat

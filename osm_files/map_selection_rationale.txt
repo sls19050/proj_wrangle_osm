@@ -1,0 +1,21 @@
+-Link to map location: https://www.openstreetmap.org/export#map=12/47.6181/-122.3146
+	boundaries of the map:
+		minlat = 47.608
+		maxlat = -122.3268
+		maxlat = 47.6215
+		maxlon = -122.3001
+
+-short description of the chosen map area:
+	-Capitol Hill is the heart of Seattle!
+	-It is very noisy at night, mostly because of bars.
+	-Capitol Hill has all the amenities that you can think of.
+	-There are also a lot of apartments around the area
+
+-reason for choice:
+	-I like living in this area, because it is close to my workplace.
+	-However, I dislike the noise that I have to endure at night.
+	-I'd like to find the best place to live around here, optimize by the following criteria:
+		-minimize distance from work
+		-maximize distance from bars
+	-I'd also like to find the best area for bar-hopping:
+		-find a series of bars close to each other
